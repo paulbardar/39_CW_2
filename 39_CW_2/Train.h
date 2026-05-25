@@ -24,6 +24,13 @@ public:
 	void setDeparture(string departure);
 	void setStation(string station);
 
+	bool operator <(const Train& obj)const&;
+
+
+
 	void showInfo()const;
+
+	
+
 };
 
