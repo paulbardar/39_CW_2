@@ -49,6 +49,7 @@ bool Train::operator<(const Train& obj) const&
 
     if (this->departure < obj.departure) return true;
     else if (this->departure == obj.departure) return this->number < obj.number;
+    else return false;
 }
 
 void Train::showInfo() const
